@@ -1,6 +1,7 @@
 package uc2maxfloat;
 
     public class MaxFloat {
+        
         public static <T extends Comparable<T>> void findMax(T x, T y, T z) {
             T max = x;
             if(y.compareTo(max) > 0) {
