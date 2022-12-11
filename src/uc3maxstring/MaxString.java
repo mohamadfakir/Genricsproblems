@@ -1,6 +1,7 @@
 package uc3maxstring;
 
     public class MaxString {
+        
         public static void findMax(String[] arr) {
             String max=" ";
             for (int i=0; i<arr.length;i++) {
