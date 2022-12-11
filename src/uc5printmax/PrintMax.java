@@ -10,7 +10,7 @@ package uc5printmax;
             this.y = y;
             this.z = z;
         }
-
+        
         // Generic Method to find Max values
         public static <T extends Comparable<T>> T findMax(T... arr) {
             T max = arr[0];
