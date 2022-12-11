@@ -6,7 +6,7 @@ package uc4extendmaxmethodtotakemorethan3parameters;
         public ExtendedMax(T[] o) {
             arr = o;
         }
-
+        
         public T max() {
             T max = arr[0];
             for (int i = 1; i < arr.length; i++) {
